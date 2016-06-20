@@ -18,6 +18,7 @@ class Game
 			action = get_action
 			result = do_action(action)
 		end
+		outro
 	end
 
 	def get_action
@@ -76,6 +77,10 @@ class Game
 		else
 			puts "Time to check the game rules...!"
 		end
+	end
+
+	def outro
+		puts "See you next time!"
 	end
 
 end
